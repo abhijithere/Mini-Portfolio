@@ -30,8 +30,6 @@ q.addEventListener("click",()=>{
 })
 
 darkmode.addEventListener("click",()=>{
-    // moon.style.display='none'
-    // sun.style.display='flex'
     if(body.classList.contains('bodydark')){
         moon.style.display='flex'
         sun.style.display='none'
